@@ -1,0 +1,123 @@
+.MathGame h1 {
+    text-align: center;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-size: 8rem;
+    color: gray;
+    position: sticky;
+  }
+
+  .MathCard h2 {
+    color: lightgray;
+    font-size: 4rem;
+  }
+
+  .MathCard p {
+    color: lightgray !important;
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .MathGame h1 {
+      font-size: 5rem
+    }
+    .MathCard h2 {
+      font-size: 3rem;
+    }
+    .MathCard p {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .MathGame h1 {
+      font-size: 2rem
+    }
+    .MathCard h2 {
+      font-size: 2rem;
+    }
+    .MathCard p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .MathGame h1 {
+      font-size: 1rem
+    }
+    .MathCard p {
+      font-size: 1rem;
+    }
+  }
+
+  .MathGame {
+    text-align: center;
+    background-color: #121212;
+    min-height: 100vh;
+    margin: 0;
+    color: gray;
+  }
+
+  .MathCard form {
+    margin-top: 10px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .MathGame form input {
+    height: 4.5rem;
+    border-radius: 10px 0 0 10px;
+    background-color: #6c757d;
+    border: none;
+    font-size: 50px;
+    text-align: center;
+    width: 15rem;
+}
+
+  .MathGame form button {
+    height: 4.5rem;
+    border-radius:  0 10px 10px 0 ;
+    border: none;
+    background-color: #e65319;
+    width: 4rem;
+}
+
+ .StartButton {
+    background-color: #e65319;
+    border-radius: 10px;
+    border: none;
+    height: 4rem;
+    width: 8rem;
+    font-size: 2rem;
+ }
+
+ .MathCard {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh
+ }
+
+ .preferences {
+    margin-top: 20px;
+ }
+
+ .settings-button {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+    background-color: #212529;
+  }
+
+  .SettingsModal .modal-content {
+    color: lightGray;
+  }
