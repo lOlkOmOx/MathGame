@@ -1,11 +1,10 @@
 //To use this component, make sure to install React-Bootstrap and mdi icons.
 
 import React, {useState, useEffect} from "react";
-import '../Styles/MathGame.css'
+import './MathGame.css'
 import {Card, Row, Col, Modal, Form, Button, Stack} from "react-bootstrap"
 import Icon from "@mdi/react";
 import { mdiCheck, mdiClose, mdiTimerOutline, mdiChevronRight, mdiCog } from '@mdi/js';
-import BackButton from "./BackButton"  //Remove this line if used separately
 
 function MathGame() {
 
