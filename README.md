@@ -12,7 +12,7 @@ Before using this component, make sure to install required dependencies:
 ```
 npm install react-bootstrap @mdi/react
 ```
-
+## MathGame Component
 ### Component imports
 ```jsx
 import React, {useState, useEffect} from "react"
@@ -62,3 +62,21 @@ import { mdiCheck, mdiClose, mdiTimerOutline, mdiChevronRight, mdiCog } from '@m
     return Math.floor(Math.random() * (maxNumber + 1))
   }
   ```
+- **createTask**: generates a new task. Ensures, that the answer is not negative, based on user preferences.
+  ```jsx
+  const createTask = () => { ... }
+  ```
+- **handleResult**: processes user answers and updates answer counters
+  ```jsx
+  const handleResult = (event, input) => { ... }
+  ```
+- **startTimer**: start a timer and game. Reset all previous anwer counts.
+  ```jsx
+  const startTimer = () => { ... }
+  ```
+- **formatTime**: makes timer look user familiar
+- **calcScore**: count user score on the end of game
+- **handleInput**: updates user input
+- **changeDuration**: updates duration
+- **changeMaxNumber**: updates max number, which is used by `randomNumberGenerator`
+- **changeOperations**: updates selected aritmetic operators
